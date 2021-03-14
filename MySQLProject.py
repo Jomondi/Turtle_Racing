@@ -1,6 +1,6 @@
 import mysql.connector, csv
 
-database = mysql.connector.Connect(host='localhost', user='root', password='FidelliaAdhiambo', database='Academics')
+database = mysql.connector.Connect(host='localhost', user='root', password='', database='Academics')
 print(f'The version of MySQL connected to is {database.get_server_info()}')
 cursor = database.cursor()
 
